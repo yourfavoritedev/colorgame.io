@@ -1,0 +1,91 @@
+body{
+	background: #232323;
+	color: white;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: open sans;
+	text-align: center;	
+}
+
+
+#container{
+	max-width: 600px;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+
+.square{
+	background: blue;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	width: 30%;
+	float: left;
+	border-radius: 20px;
+	transition: background 0.5s ease;
+}
+
+#colorDisplay{
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+#banner{
+	padding: 15px 0px 15px 0px;
+	margin: 0px;
+	background: steelblue;
+	transition: background 0.5s ease;
+}
+
+#navbar{
+	background: white;
+	color: steelblue;
+	margin: 0;
+	font-family: open sans;
+	font-weight: bolder;
+}
+
+.fadeOut{
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+button{
+	background: inherit;
+	color: steelblue;
+	border: none;
+	line-height: 1.5;
+	font-family: open sans;
+	font-weight: bolder;
+	text-transform: uppercase;
+	height: 100%;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+}
+
+button:hover{
+	background: steelblue;
+	color: white;
+	transition: all 0.5s ease-out;
+}
+
+.activeBtn{
+	background: steelblue;
+	color: white;
+}
+
+#message{
+	display: inline-block;
+	width: 15%;
+	padding-right: 50px;
+}
+
+#attemptCounter{
+	width: 15%;
+	padding: 0px 20px 0px 20px;
+}
+
+#scoreDisplay{
+	padding-left: 20px;
+}
