@@ -62,13 +62,14 @@ reset.addEventListener("click", function(){
 
 	colorDisplay.textContent = pickedColor
 	banner.style.background = "steelblue"
+	message.textContent = "Your Turn"
 
 
 	if(reset.textContent = "Play Again"){
 		reset.textContent = "New Colors"
 	}
 
-	message.textContent = ""
+	message.textContent = "Your Turn"
 	counter = 0
 	attempts.textContent = ""
 
@@ -81,7 +82,7 @@ easyBtn.addEventListener("click", function(){
 	numSquares = 3
 	colors = generateRandomColors(numSquares);
 	pickedColor = pickEasy();
-	message.textContent = ""
+	message.textContent = "Your Turn"
 	attempts.textContent = ""
 	counter = 0;
 	colorDisplay.textContent = pickedColor;
@@ -104,7 +105,7 @@ hardBtn.addEventListener("click", function(){
 	numSquares = 6
 	colors = generateRandomColors(numSquares)
 	pickedColor = pickColor();
-	message.textContent = "";
+	message.textContent = "Your Turn";
 	attempts.textContent = "";
 	counter = 0;
 	colorDisplay.textContent = pickedColor

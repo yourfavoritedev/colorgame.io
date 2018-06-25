@@ -76,6 +76,7 @@ button:hover{
 }
 
 #message{
+	white-space: nowrap;
 	display: inline-block;
 	width: 15%;
 	padding-right: 50px;
